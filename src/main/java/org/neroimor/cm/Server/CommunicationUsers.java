@@ -29,6 +29,7 @@ public class CommunicationUsers extends Thread {
             while (true) {
                 word = in.readLine();
                 if (word.equals("stop")) {
+                    SinglDataBase.updateUser(nameUser);
                     break;
                 }
 
@@ -53,7 +54,14 @@ public class CommunicationUsers extends Thread {
             if(!statusName && serverElement.equals(this)){
                 nameUser = word;
                 statusName = true;
-                serverElement.sendMessage("Ваше имя: " + nameUser+".");
+
+                if (SinglDataBase.addAndGetUser(nameUser)){
+                    serverElement.sendMessage("Вновь привет тебе: " + nameUser+".");
+                }
+                else{
+                    serverElement.sendMessage("Ваше имя: " + nameUser+".");
+                }
+
             }
             if (serverElement.equals(this)){
                 //serverElement.sendMessage("Ввод: ");

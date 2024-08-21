@@ -20,7 +20,6 @@ public class MainServer {
                     Thread communicationUsers = new CommunicationUsers(socket);
                     communicationUsers.start();
 
-
                 } catch (IOException e){
                     socket.close();
                 }
