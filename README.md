@@ -16,12 +16,12 @@
 - Поддержка нескольких клиентов
 
 ## Скриншоты
-![[Pasted image 20240821114029.png]]
+![Pasted image 20240821114029](https://github.com/user-attachments/assets/feb209e0-6bbb-4772-aa22-b1b47f218acd)
+![Pasted image 20240821114212](https://github.com/user-attachments/assets/fb314ae0-10e9-4db0-868d-73794790a06c)
+![Pasted image 20240821114340](https://github.com/user-attachments/assets/9649d809-bfaf-4505-b2af-2458e9cab996)
+![Pasted image 20240821114422](https://github.com/user-attachments/assets/f0e7dc31-b10b-40ac-80a3-7743c0977085)
+![Pasted image 20240821114511](https://github.com/user-attachments/assets/b931130c-7fe0-4146-89a3-f85dc0f855b1)
 
-![[Pasted image 20240821114340.png]]
-
-![[Pasted image 20240821114422.png]]
-![[Pasted image 20240821114511.png]]
 ## Лицензия
 Этот проект лицензирован по лицензии MIT - см. файл LICENSE для подробностей.
 
